@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brew & Bite - Coffee & Restaurant</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -13,30 +12,25 @@
             box-sizing: border-box;
         }
 
-       :root {
-    --beige: #F5F5DC; /* Soft background */
-    --warm-brown: #8B4513; /* Coffee accent */
-    --muted-green: #6B8E23; /* Sage-like for freshness */
-    --soft-teal: #4DB6AC; /* Calmer teal */
-    --cream: #FFF8E1; /* Light cream */
-    --terracotta: #D2691E; /* Muted orange */
-    --mint: #B2DFDB; /* Soft mint */
-    --deep-brown: #5D4037; /* For text */
-    --lavender: #CE93D8; /* Subtle accent */
-    --soft-pink: #F8BBD9; /* Light pink for highlights */
-}
+        :root {
+            --coral: #FF6B6B;
+            --peach: #FFEAA7;
+            --sage: #81C784;
+            --teal: #26A69A;
+            --cream: #FFFBF0;
+            --terracotta: #E17055;
+            --mint: #A8E6CF;
+            --deep-teal: #00695C;
+            --lavender: #B39DDB;
+            --soft-pink: #FFCCBC;
+        }
 
         body {
             font-family: 'Poppins', sans-serif;
-            linear-gradient(135deg, var(--cream) 0%, var(--beige) 100%) ;
+            background: linear-gradient(135deg, var(--cream) 0%, var(--peach) 100%);
             color: var(--deep-teal);
             overflow-x: hidden;
         }
-
-         .font-modern { font-family: 'Inter', sans-serif; }
-         body { font-family: 'Poppins', sans-serif; }
-         h1, h2, .section-title { font-family: 'Playfair Display', serif; font-weight: 600; }
-         .cta-button { font-family: 'Inter', sans-serif; font-weight: 600; }
 
         .font-serif {
             font-family: 'Playfair Display', serif;
@@ -151,7 +145,7 @@
         .hero-overlay {
             position: absolute;
             inset: 0;
-            background: linear-gradient(135deg, rgba(107, 142, 35, 0.6) , rgba(129, 199, 132, 0.6));
+            background: linear-gradient(135deg, rgba(38, 166, 154, 0.7), rgba(129, 199, 132, 0.6));
         }
 
         .hero-content {
@@ -640,7 +634,7 @@
                 top: 100%;
                 left: 0;
                 right: 0;
-                background: var(--deep-brown);
+                background: var(--cream);
                 flex-direction: column;
                 padding: 2rem;
                 border-top: 2px solid var(--mint);
